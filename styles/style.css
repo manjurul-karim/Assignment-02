@@ -73,6 +73,7 @@ header{
     height: 550px;
 }
 .features{
+    font-family: 'Work Sans', sans-serif;
     display: flex;
     padding-top: 80px;
     padding-left: 250px;
@@ -85,7 +86,6 @@ header{
     gap: 15px
 }
 .features-image{
-    grid-template-columns: ;
     width: 200px;
     height: 200px;
 }
@@ -107,19 +107,203 @@ color: #727272;
     color: #FF900E;
     font-weight: 600px;
     }
-    .features-desc{
+.features-desc{
         font-size: 12px;
         color: #727272;
         padding-right: 450px;
-        lin
     }
-    .features-exp-btn{
+.features-exp-btn{
         background-color:#FF900E ;
         color: #FFFFFF;
         width: 125px;
         height: 45px;
         border:1px solid #FF900E ;
         border-radius: 5px;
-        margin-bottom: 20px;
+        margin-bottom:20px;
         padding: 5px;
     }
+    .exp-container{
+        font-family: 'Work Sans', sans-serif;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        width: 1040px;
+        height: 650px;
+        margin-left: 210px;
+        border: 1px;
+        border-radius: 8px;
+        margin-top: 45px;
+    }
+   
+    .exp-title{
+        
+        margin-left: 35px;
+    }
+    .exp-more-container{
+        margin-left: 25px;
+        height: 460px;
+        width: 400px;
+    }
+    .exp-desc{
+        font-size: 12px;
+        color: #727272;
+        margin-left: 30px;
+        padding-right: 85px;
+
+    }
+    .exp-more-title{
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+    .exp-more-desc{
+        font-size:12px ;
+        color: #727272;
+}
+
+.exp-more-img{
+    height: 500px;
+    width: 450px;
+margin-left: 60px;
+}
+.year-exp-btn{
+    background-color:#FF900E ;
+    color: #FFFFFF;
+    width: 220px;
+    height: 110px;
+    border:1px solid #FF900E ;
+    border-radius: 5px;
+    margin-bottom: 600px;
+
+}
+.exp-year{
+    font-size: 2.5em;
+}
+.experience{
+    font-size: 1.5em;
+}
+.exp-more-box{
+    background-color:#FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+.fact-details{
+    font-family: 'Work Sans', sans-serif;
+}
+.fact-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 240px;
+
+}
+.fact-title{
+    font-size: 2.5em;
+}
+.fact-desc{
+    font-size: 12px;
+    color: #727272;
+}
+.single-fact-container{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 900px; */
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 105px;
+    margin-right: 95px;
+    
+}
+.single-fact{
+    
+    height: 140px;
+    width: 140px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+   padding: 15PX;
+    
+}
+.single-fact:hover{
+   border: 1px solid #FFFFFF;
+   background-color: #FF900E;
+   color: #FFF4E7;
+    
+}
+.ribon:hover{
+    transition: 0.5s ease-in;
+    transform: translateY(-15px );
+}
+
+.fact-text{
+    font-family: 'Work Sans', sans-serif;
+    color: #727272;
+}
+.fact-text:hover{
+    color: #FFF4E7;
+}
+
+/* SPONSORS */
+
+.sponsor{
+   text-align: center;
+   margin-top: 100px;
+}
+.sponsor-header{
+    font-size: 1.5em;
+}
+.sponsor-desc{
+    color: #727272;
+    font-size: 12px;
+}
+
+.sponsor-company{
+    display:flex ;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sp-company-logo{
+    filter: grayscale(100%);
+}
+.media-partner{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .media-header{
+     color: black;
+     font-size: 1.5em;
+ }
+ .media-desc{
+    font-size: 12PX;
+    color: #727272;
+ }
+ .media-company{
+    margin-top: 40px;
+   text-align: center;
+   
+   
+ }
+ .media-logo{
+   
+    width: 80px;
+    height: 80px;
+    filter: grayscale(100%);
+ }
+
+.footer{
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4E7;
+    height: 40px;
+    width: 75%;
+    margin-top: 95px;
+    padding-top: 17px;
+    margin-left: 15%;
+    
+}
